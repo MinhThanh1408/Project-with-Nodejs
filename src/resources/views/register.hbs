@@ -1,0 +1,152 @@
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <title>Alien - Register</title>
+        <link
+            rel='shortcut icon'
+            href='/image/favicon.ico'
+            type='image/x-icon'
+        />
+        <link
+            rel='stylesheet'
+            href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'
+        />
+        <link
+            href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'
+            rel='stylesheet'
+            integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC'
+            crossorigin='anonymous'
+        />
+        <link rel='stylesheet' href='/css/primary.css' />
+        <link rel='stylesheet' href='/css/app.css' />
+    </head>
+    <body>
+        <div class='container'>
+            <div class='row justify-content-center'>
+                <div class='col-md-2 my-4'>
+                    <img
+                        class='logo-primary'
+                        src='/image/logo-with-text-removebg.png'
+                        alt='Logo'
+                    />
+                </div>
+            </div>
+            <div class='row justify-content-center'>
+                <div class='col-md-12 col-lg-10'>
+                    <div class='wrap d-md-flex'>
+                        <div class='login-wrap p-4 p-lg-5 order-md-last'>
+                            <div class='d-flex'>
+                                <div class='w-100'>
+                                    <h3
+                                        class='mb-4 color-text-primary'
+                                    >Register</h3>
+                                </div>
+                                <div class='w-100'>
+                                    <p
+                                        class='social-media d-flex justify-content-end'
+                                    >
+                                        <a
+                                            href='#'
+                                            class='social-icon d-flex align-items-center justify-content-center'
+                                        ><i
+                                                class='fa-brands fa-facebook-f'
+                                            ></i></a>
+                                        <a
+                                            href='#'
+                                            class='social-icon d-flex align-items-center justify-content-center'
+                                        ><i class='fa-brands fa-google'></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <form method='POST' action='#' class='signin-form'>
+                                <div class='form-group mb-2'>
+                                    <label
+                                        class='label'
+                                        for='username'
+                                    >Username</label>
+                                    <input
+                                        type='text'
+                                        class='form-control'
+                                        id='username'
+                                        placeholder='Username'
+                                        required
+                                    />
+                                    <div
+                                        class='form-message color-text-primary'
+                                    >Compulsory</div>
+
+                                </div>
+                                <div class='form-group mb-2'>
+                                    <label
+                                        class='label'
+                                        for='password'
+                                    >Password</label>
+                                    <input
+                                        type='password'
+                                        id='password'
+                                        class='form-control'
+                                        placeholder='Password'
+                                        required
+                                    />
+                                    <div
+                                        class='form-message color-text-primary'
+                                    >Compulsory</div>
+                                </div>
+                                <div class='form-group mb-2'>
+                                    <label
+                                        class='label'
+                                        for='confirm-password'
+                                    >Confirm Password</label>
+                                    <input
+                                        type='password'
+                                        id='confirm-password'
+                                        class='form-control'
+                                        placeholder='Confirm Password'
+                                        required
+                                    />
+                                    <div
+                                        class='form-message color-text-primary'
+                                    >Compulsory</div>
+                                </div>
+                                <div class='form-group mt-4'>
+                                    <button
+                                        type='submit'
+                                        class='form-control btn btn-primary submit btn-brs-50px'
+                                    >Register</button>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div
+                            class='text-wrap p-4 p-lg-5 text-center d-flex align-items-center'
+                        >
+                            <div class='text w-100'>
+                                <img
+                                    class='logo-primary'
+                                    src='/image/logo-with-text-removebg.png'
+                                    alt='Logo'
+                                />
+                                <h2>Welcome to Register</h2>
+                                <p class='color-text-primary'>
+                                    If you want to exist then you must register.</p>
+                                <p class='color-text-primary'>Signed up already?
+                                    Then just Login.</p>
+                                <a
+                                    href='/login'
+                                    class='btn btn-white btn-outline-white'
+                                >Log in</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script
+            src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'
+            integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM'
+            crossorigin='anonymous'
+        ></script>
+    </body>
+</html>
